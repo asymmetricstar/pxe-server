@@ -8,7 +8,8 @@ A small PXE boot server that runs **DHCP + TFTP + HTTP** in a single executable,
 
 ---
 ## Download Release
-``` https://github.com/asymmetricstar/pxe-server/releases/download/v1.0.1/pxe-server-build-x64-1.0.1.zip ```
+### 💾 [win-x64-pxe-server](https://github.com/asymmetricstar/pxe-server/releases/download/v1.0.1/pxe-server-build-x64-1.0.1.zip)
+
 
 ## 4. Running
 
