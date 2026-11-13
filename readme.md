@@ -3,6 +3,8 @@
 A small PXE boot server that runs **DHCP + TFTP + HTTP** in a single executable, built with MinGW on Windows. It serves network boot to BIOS (iPXE) and UEFI (GRUB2) clients.
 
 ---
+<img width="712" height="392" alt="screenshot-2026-11-13_16-26-10" src="https://github.com/user-attachments/assets/ee62f23a-e952-46a3-9215-7182ceeca975" />
+---
 
 ## 4. Running
 
