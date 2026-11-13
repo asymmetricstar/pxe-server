@@ -4,19 +4,6 @@ A small PXE boot server that runs **DHCP + TFTP + HTTP** in a single executable,
 
 ---
 
-The output is staged into `build/bin/` as a runnable layout:
-
-> **The executable is named `pxesrv.exe`.** Names like `pxe_server.exe` / `pxe-server.exe`
-> were blocked by security policy on some Windows machines. The icon and version
-> information (1.0.2 / levent INAN / GitHub URL) are embedded from `resources/pxe.rc`
-> and visible in File Properties → Details.
-
-> **`build/bin/config/` is replaced from the source `config/` directory on every build.**
-> Make persistent configuration changes in `config/pxe.cfg`; edits inside
-> `build/bin/config/pxe.cfg` are overwritten on the next build.
-
----
-
 ## 4. Running
 
 Open a terminal **as Administrator** (cmd / PowerShell ), then:
