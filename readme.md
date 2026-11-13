@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PXE Server (C++)
 
 A small PXE boot server that runs **DHCP + TFTP + HTTP** in a single executable, built with MinGW on Windows. It serves network boot to BIOS (iPXE) and UEFI (GRUB2) clients.
@@ -167,3 +168,9 @@ ISO files must live in the running server's `boot/isos` directory (`boot_root/is
 3. No server restart is needed (files are read from disk on each request).
 
 ---
+=======
+soon..
+
+## pxe-server-build-x64:
+https://github.com/asymmetricstar/pxe-server/releases/download/v1.0.1/pxe-server-build-x64-1.0.1.zip
+>>>>>>> f4da6f06d719dcb2dfc986a33b41191b7522c590
