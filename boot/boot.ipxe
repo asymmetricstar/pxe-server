@@ -1,0 +1,28 @@
+#!ipxe
+
+isset ${next-server} && set server_ip ${next-server} || set server_ip 192.168.1.101
+set boot_url http://${server_ip}
+:start
+menu PXE Boot Menu (iPXE)
+item --gap --            --- Tools ---
+item shell               iPXE shell
+item reboot              Reboot
+item exit                Exit to BIOS
+choose --timeout 60000 selected || goto exit
+goto ${selected}
+
+:shell
+echo Type 'exit' to return to menu.
+shell
+goto start
+
+:failed
+echo Boot failed. Returning to menu in 5 seconds...
+sleep 5
+goto start
+
+:reboot
+reboot
+
+:exit
+exit
